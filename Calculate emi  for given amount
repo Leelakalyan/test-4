@@ -1,0 +1,18 @@
+p=int(input ('enter the principal amount:'))
+t=int(input ('total number of years:'))
+r=float(input('enter rate of interest:'))
+si=(p*t*r)/100
+print('interest amount', si)
+emi=si+p/t*12
+print('EMI', emi)
+
+Output:
+ enter the principal amount:
+100000
+total number of years:
+5
+enter rate of interest:
+30
+interest amount 150000.0
+EMI 390000.0
+
